@@ -1,0 +1,29 @@
+/* Header styles */
+header {
+    background-color: #D0574E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Blog post styles */
+.blog-post {
+    margin-bottom: 40px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f8f9fa; 
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}

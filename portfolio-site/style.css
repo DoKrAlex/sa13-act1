@@ -1,0 +1,93 @@
+body {
+    background-color: blue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav, section {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    background-color: yellow;
+    margin: 0;
+    width: 100%;
+    font-size: 65px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+nav a {
+    margin-right: 65px;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    margin: 0 50px;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+section#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+section#contact input[type="text"],
+section#contact input[type="email"],
+section#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section#contact textarea {
+    resize: none;
+}
+
+section#contact button[type="submit"] {
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section#contact button[type="submit"]:hover {
+    background-color: skyblue;
+}
